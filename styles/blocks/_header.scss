@@ -1,0 +1,17 @@
+header {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 2rem;
+        margin-left: 2.5rem;
+    }
+}
+
+.img-logo {
+    height: 30px;
+
+    @media screen and (min-width: 1200px) {
+        height: 40px;
+    }
+}

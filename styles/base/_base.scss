@@ -1,0 +1,18 @@
+html {
+    min-height: 100vh;
+}
+
+body {
+    font-family: $main-font, 'sans-sserif';
+    background-image: url(/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $violet;
+
+    @media screen and (min-width: 1200px) {
+        background-image: url(/images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: -90% -40%;
+    }
+}

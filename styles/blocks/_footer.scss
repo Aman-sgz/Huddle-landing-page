@@ -1,0 +1,19 @@
+footer {
+    margin: 1rem auto;
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: plum;
+}
+
+.attribution a {
+    color: hsl(228, 86%, 66%); 
+}
