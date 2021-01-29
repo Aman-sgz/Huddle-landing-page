@@ -1,6 +1,6 @@
 // Configuración guías de estilo
 @import'config/fonts';
-@import'config/variables';
+@import'config/colors';
 @import'config/icons';
 
 // Estilos base
@@ -10,5 +10,4 @@
 // Bloques
 @import'blocks/_header.scss';
 @import'blocks/_main.scss';
-@import'blocks/_social-icons.scss';
 @import'blocks/_footer.scss';

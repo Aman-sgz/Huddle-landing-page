@@ -1,17 +1,15 @@
-header {
-    margin-top: 1rem;
-    margin-left: 1.5rem;
+.header {
+    margin: 2rem 2.5rem;
 
-    @media screen and (min-width: 1200px) {
-        margin-top: 2rem;
-        margin-left: 2.5rem;
+    @media screen and (min-width: 992px) {
+        margin: 3rem;
     }
 }
 
-.img-logo {
+.header__logo {
     height: 30px;
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 992px) {
         height: 40px;
     }
 }

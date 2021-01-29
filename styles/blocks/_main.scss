@@ -1,72 +1,76 @@
-.container {
-    color: $white;
-    text-align: center;
-    margin: 2rem auto;
-    width: 80%;
+.main__container {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem;
 
-    @media screen and (min-width: 1200px) {
-        display: flex;
-        justify-content: start;
-        flex-wrap: wrap;
+    @media screen and (min-width: 992px) {
+        flex-direction: row;
+    } 
+}
+
+.main__img {
+    margin-top: 1rem;
+    width: 100%;
+
+    @media screen and (min-width: 992px) {
+        width: 60%;
         margin-top: 4rem;
-        width: 95%;
     }
 }
 
-.main-img {
-    margin-top: 2rem;
+.main__info {
+    color: $white;
 
-    @media screen and (min-width: 1200px) {
-        height: 450px;
-        width: 50%;
-        padding-right: 1rem;
+    @media screen and (min-width: 992px) {
+        width: 40%;
+        padding: 3rem;
     }
 }
 
-h2 {
-    font-family: $main-title, sans-serif;
-    font-weight: $big-title;
-    font-size: 1.3rem;
+.main__title {
+    font-family: $title-font;
+    font-size: 1.5rem;
     line-height: 1.5;
-    margin-top: 5rem;
+    text-align: center;
+    margin-top: 3.5rem;
 
-    @media screen and (min-width: 1200px) {
-        font-size: 2rem;
-        padding-right: 10rem;
-    }
-}
-
-.div-text {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-
-    @media screen and (min-width: 1200px) {
-        width: 50%;
+    @media screen and (min-width: 992px) {
+        font-size: 2.5rem;
         text-align: left;
-        padding-left: 3rem;
-        padding-right: 3rem;
     }
 }
 
-p {
+
+.main__text {
+    font-family: $text-font;
+    font-size: 1rem;
     line-height: 1.5;
-    font-weight: $regular-font;
+    text-align: center;
+    
+
+    @media screen and (min-width: 992px) {
+        font-size: 1rem;
+        text-align: left;
+    }
 }
 
-button {
-    width: 70%;
-    border-radius: 30px;
+.main__button {
+    display: block;
+    margin-top: 1.5rem;
+    margin-right: auto;   
+    margin-left: auto;
+    width: 60%;
+    padding: .8rem .7rem;
+    font-family: $title-font;
+    font-size: 1rem;
     background-color: $white;
-    padding: 0.8rem;
-    margin: 1.5rem auto;
     color: $violet;
-    font-family: $main-title;
-    font-weight: $regular-title;
     border-style: none;
-    box-shadow: 1px 1px 1px 1px rgb(235, 172, 235);
+    border-radius: 30px;
 
-    @media screen and (min-width: 1200px) {
-        width: 30%;
+    @media screen and (min-width: 992px) {
+        margin-left: 0;
+        width: 40%;
 
         &:hover {
             background-color: $violet;
